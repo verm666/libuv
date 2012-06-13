@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 E=
-CSTDFLAG=--std=c89 -pedantic -Wall -Wextra -Wno-unused-parameter
+CSTDFLAG=-std=c89 -pedantic -Wall -Wextra -Wno-unused-parameter
 CFLAGS += -g
 CPPFLAGS += -Isrc -Isrc/unix/ev
 LINKFLAGS=-lm
